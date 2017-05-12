@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Jay Johnson</title>
+	<meta name="description" content="Portfolio site">
+	<meta name="author" content="Jay Johnson">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="assets/dest/css/styles.css">
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<div class="inset">
+				<a href="index.html"><img src="_img/jay_logo.svg"></a>
+			</div>
+		</header>
+		<nav>
+			<div class="inset menuIcon">
+				<a href="#menuExpand" class="box-shadow-menu"></a>
+			</div>
+			<div class="inset menu">
+				<a class="chosen" href="index.html">portfolio</a>
+				<a href="resume.html">résumé</a>
+			</div>
+		</nav>
+		<section class="fullWidth">
+			<div class="column-100-percent grid isogrid">
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-1.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_a.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-2.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_b.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-3.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_c.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-4.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_d.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-5.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_e.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-6.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_f.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-7.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_g.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-8.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_h.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-9.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_i.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-10.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_j.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-11.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_k.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-12.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_l.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-13.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_m.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-14.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_n.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-15.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_o.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+				<!-- portfolio item start -->
+				<a class="thumbBox" href="portfolio_profile-16.html">
+					<div class="column-25-percent-full grid isogrid-item">
+						<img src="_img/thumbnail_p.jpg">
+					</div>
+				</a>
+				<!-- portfolio item end -->
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="inset">
+			<p>Created by Jay Johnson &copy; 2017</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="_js/jquery-1.11.2.min.js"></script>
+	<script src="_js/isotope.pkgd.min.js"></script>
+	<script>
+		$(window).load(function() {
+			$('.isogrid').isotope({
+				// options
+				itemSelector: '.isogrid-item',
+				layoutMode: 'fitRows'
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+			$("a[href=#menuExpand]").click(function(event) {
+				$(".menu").toggleClass("menuOpen");
+				event.preventDefault();
+			});
+		});
+	</script>
+</body>
+
+</html>

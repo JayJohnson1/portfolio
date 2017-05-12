@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Jay Johnson</title>
+		<meta name="description" content="Portfolio site">
+		<meta name="author" content="Jay Johnson">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="assets/dest/css/styles.css">
+</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="inset">
+					<a href="index.html"><img src="_img/jay_logo.svg"></a>
+				</div>
+			</header>
+			<nav>
+				<div class="inset menuIcon">
+					<a href="#menuExpand" class="box-shadow-menu"></a>
+				</div>
+				<div class="inset menu">
+					<a class="chosen" href="index.html">portfolio</a>
+					<a href="resume.html">résumé</a>
+				</div>
+			</nav>
+			<section class="fullWidth">
+				<div class="column-100-percent grid">
+					<div class="column-66-percent grid videoWrapper">
+						<!-- update the image path below -->
+						<img src="_img/large_image_P.jpg">
+					</div>
+					<div class="column-33-percent-full grid portfolio">
+						<!-- update the h1 below -->
+						<h1 class="profile-h1">Culture Skateboards Site</h1>
+						<!-- update the p below -->
+						<p>Website redesign and deck designs for Culture Skateboards.</p>
+						<p class="profile-link">
+							<a href="index.html">&lt;&lt; Back to portfolio</a>
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="inset">
+				<p>Created by Jay Johnson &copy; 2017</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="_js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("a[href=#menuExpand]").click(function(event) {
+					$(".menu").toggleClass("menuOpen");
+					event.preventDefault();
+				});
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta http-equiv="x-ua-compatible" content="ie=edge">
+			<title>Jay Johnson</title>
+			<meta name="description" content="Portfolio site">
+			<meta name="author" content="Jay Johnson">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="assets/dest/css/styles.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="inset">
+					<a href="index.html"><img src="_img/jay_logo.svg"></a>
+				</div>
+			</header>
+			<nav>
+				<div class="inset menuIcon">
+					<a href="#menuExpand" class="box-shadow-menu"></a>
+				</div>
+				<div class="inset menu">
+					<a href="index.html">portfolio</a>
+					<a class="chosen" href="resume.html">résumé</a>
+				</div>
+			</nav>
+			<section class="fullWidth">
+				<div class="column-100-percent grid">
+					<div class="column-33-percent-full grid resume">
+						<h1>Education</h1>
+						<h2>The Art Institute of CA-Hollywood | 2013-2017</h2>
+						<p>Bachelor of Science, Graphic &amp; Web Design</p>
+						<h1 class="h1TopMargin">Skills</h1>
+						<h2>Photoshop, Illustrator, InDesign, After Effects, Dreamweaver, Premiere Pro, Lightroom, Acrobat, Microsoft Office, Atom, HTML5, CSS3, PHP, MySQL, JavaScript, jQuery, GitHub, Gulp, Sass, Vagrant, Balsamiq, Bootstrap, Foundation, WordPress, WP-CLI, Drupal </h2>
+						<h1 class="h1TopMargin">Affiliations</h1>
+						<h2 class="h2BotMargin">American Institute of Graphic Arts (AIGA)</h2>
+					</div>
+					<div class="column-33-percent-full grid resume tint">
+						<h1>Experience</h1>
+						<h2>Digital Media Designer | LA Clippers | 2016-Present</h2>
+						<p>Objectives include supporting digital operations team in execution of digital content strategy. Duties involve image manipulation, video production, digital asset management, and maintenance of team Drupal and WordPress sites.</p>
+						<h2>Art Director | Culture Skateboards | 2007-2013</h2>
+						<p>Oversaw all aspects of branding including deck graphic design, advertising, photography, website design and video editing. Jointly managed diverse team of skaters and assisted in conception of community skatepark.</p>
+						<h2>Senior Designer | MSLGROUP New York | 2005-2012</h2>
+						<p>Produced print ads, logos, social media collateral and PowerPoint presentations for Swiffer, Charmin, Febreze, Heineken, General Motors, Amstel, Prilosec OTC and World Gold Council in high profile advertising agency.</p>
+						<h2>Graphic Designer | Sony Entertainment | 1998-2005</h2>
+						<p>Conceived and designed print catalogs, web banners, fliers, inserts and direct mailer advertising for creative department at Columbia House DVD Club.</p>
+						<h2>Graphic Designer | Barbour Design | 1997-1998</h2>
+						<p>Created sales brochures and media kits for Field &amp; Stream Magazine, Eden Toys and assisted in the promotional launch of ESPN The Magazine.</p>
+					</div>
+					<div class="column-33-percent-full grid resume">
+						<h1>Contact</h1>
+						<h2>Email: <a href="mailto:jayevanjohnson@gmail.com?Subject=Hey%20Jay" target="_top">jayevanjohnson@gmail.com</a></h2>
+						<h2 class="h2TopMargin">Phone: <a href="tel:+1-347-453-9015">347.453.9015</a></h2>
+						<h2 class="h2TopMargin">LinkedIn: <a href="https://www.linkedin.com/in/jay-johnson" target="_blank">linkedin.com/in/jay-johnson</a></h2>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="inset">
+				<p>Created by Jay Johnson &copy; 2017</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="_js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("a[href=#menuExpand]").click(function(event) {
+					$(".menu").toggleClass("menuOpen");
+					event.preventDefault();
+				});
+			});
+		</script>
+	</body>
+</html>

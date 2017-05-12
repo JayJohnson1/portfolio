@@ -1,0 +1,8 @@
+.DS_Store
+__builder/
+_img/
+_video/
+portfolio.sql
+req_globals.php
+node_modules
+.sass-cache
